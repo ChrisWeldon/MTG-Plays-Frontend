@@ -8,8 +8,8 @@
 # testing
 /coverage
 
-# production
-/build
+# production.
+#/build unblocked because of low production environment memory
 
 # misc
 .DS_Store
