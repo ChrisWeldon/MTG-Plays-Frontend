@@ -7,7 +7,8 @@ import CardDetail from './CardDetail'
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    flexGrow: 1
+    flexGrow: 1,
+    minHeight: "110%"
   }
 }));
 

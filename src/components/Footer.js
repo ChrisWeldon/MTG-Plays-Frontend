@@ -6,8 +6,9 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    minHeight:60,
-    background: '#9D9695'
+    minHeight:100,
+    background: '#9D9695',
+    position: "sticky"
   },
   fancy:{
       background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',

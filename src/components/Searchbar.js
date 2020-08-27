@@ -31,6 +31,11 @@ export default function Searchbar({fetchSearch, addCard ,fetchCardPlays, results
                       fetchCardPlays(newValue)
                   }
               }}
+              renderOption = { (option) => (
+                    <>
+                        <span>{option.title}</span>
+                    </>
+              )}
               getOptionSelected={(option, value)=> console.log(option)}
               options={results}
               getOptionLabel={(option) => option.title}
