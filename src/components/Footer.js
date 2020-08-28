@@ -30,6 +30,7 @@ export default function Header(props){
         <AppBar position="sticky" className={classes.root}>
             <Container maxWidth="md">
                 <Typography> MTG Pro Plays Terminal - <Link color="inherit" href="https://github.com/ChrisWeldon/MTG-Database-API"> MTG API </Link> </Typography>
+                <Typography> <span class="iconify" data-icon="cib:react" data-inline="false"></span> React + <span class="iconify" data-icon="simple-icons:redux" data-inline="false"></span> Redux + <span class="iconify" data-icon="cib:flask" data-inline="false"></span> Flask + <span class="iconify" data-icon="whh:mysqltwo" data-inline="false"></span> MySQL</Typography>
                 <Typography> &copy; Christopher W. Evans, <Link href="https://github.com/ChrisWeldon/MTG-Plays-Frontend"> MIT License </Link></Typography>
                 <Typography>
                     <Link color="inherit" href="https://github.com/ChrisWeldon/MTG-Plays-Frontend">

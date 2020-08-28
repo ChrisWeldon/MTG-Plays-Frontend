@@ -1,6 +1,7 @@
 import React from 'react'
-import { AppBar, Toolbar, Typography, Container } from '@material-ui/core/';
+import { AppBar, Toolbar, Typography, Container, Link } from '@material-ui/core/';
 import { makeStyles } from '@material-ui/core/styles';
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -26,7 +27,7 @@ export default function Header(props){
         <AppBar position="sticky" className={classes.root}>
           <Toolbar>
               <Container maxWidth='md'>
-                  <Typography variant="h3">MTG Pro Plays Terminal</Typography>
+                  <Typography variant="h4">MTG Pro Plays Terminal</Typography>
               </Container>
           </Toolbar>
         </AppBar>
